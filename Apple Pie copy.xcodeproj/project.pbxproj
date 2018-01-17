@@ -13,17 +13,19 @@
 		3F00FA5B1FFD6B4600E584C6 /* Apple_Pie.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3F00FA591FFD6B4600E584C6 /* Apple_Pie.xcdatamodeld */; };
 		3F00FA5D1FFD6B4600E584C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F00FA5C1FFD6B4600E584C6 /* Assets.xcassets */; };
 		3F00FA601FFD6B4600E584C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F00FA5E1FFD6B4600E584C6 /* LaunchScreen.storyboard */; };
+		3F00FA682007D3B300E584C6 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F00FA672007D3B300E584C6 /* Game.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3F00FA4F1FFD6B4600E584C6 /* Apple Pie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Apple Pie.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F00FA4F1FFD6B4600E584C6 /* Apple Pie copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Apple Pie copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F00FA521FFD6B4600E584C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3F00FA541FFD6B4600E584C6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3F00FA541FFD6B4600E584C6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; lineEnding = 1; path = ViewController.swift; sourceTree = "<group>"; };
 		3F00FA571FFD6B4600E584C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3F00FA5A1FFD6B4600E584C6 /* Apple_Pie.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Apple_Pie.xcdatamodel; sourceTree = "<group>"; };
 		3F00FA5C1FFD6B4600E584C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F00FA5F1FFD6B4600E584C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F00FA611FFD6B4600E584C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F00FA672007D3B300E584C6 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +50,7 @@
 		3F00FA501FFD6B4600E584C6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3F00FA4F1FFD6B4600E584C6 /* Apple Pie.app */,
+				3F00FA4F1FFD6B4600E584C6 /* Apple Pie copy.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -59,6 +61,7 @@
 				3F00FA521FFD6B4600E584C6 /* AppDelegate.swift */,
 				3F00FA541FFD6B4600E584C6 /* ViewController.swift */,
 				3F00FA561FFD6B4600E584C6 /* Main.storyboard */,
+				3F00FA672007D3B300E584C6 /* Game.swift */,
 				3F00FA5C1FFD6B4600E584C6 /* Assets.xcassets */,
 				3F00FA5E1FFD6B4600E584C6 /* LaunchScreen.storyboard */,
 				3F00FA611FFD6B4600E584C6 /* Info.plist */,
@@ -70,9 +73,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3F00FA4E1FFD6B4600E584C6 /* Apple Pie */ = {
+		3F00FA4E1FFD6B4600E584C6 /* Apple Pie copy */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3F00FA641FFD6B4600E584C6 /* Build configuration list for PBXNativeTarget "Apple Pie" */;
+			buildConfigurationList = 3F00FA641FFD6B4600E584C6 /* Build configuration list for PBXNativeTarget "Apple Pie copy" */;
 			buildPhases = (
 				3F00FA4B1FFD6B4600E584C6 /* Sources */,
 				3F00FA4C1FFD6B4600E584C6 /* Frameworks */,
@@ -82,9 +85,9 @@
 			);
 			dependencies = (
 			);
-			name = "Apple Pie";
+			name = "Apple Pie copy";
 			productName = "Apple Pie";
-			productReference = 3F00FA4F1FFD6B4600E584C6 /* Apple Pie.app */;
+			productReference = 3F00FA4F1FFD6B4600E584C6 /* Apple Pie copy.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -103,7 +106,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 3F00FA4A1FFD6B4600E584C6 /* Build configuration list for PBXProject "Apple Pie" */;
+			buildConfigurationList = 3F00FA4A1FFD6B4600E584C6 /* Build configuration list for PBXProject "Apple Pie copy" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -116,7 +119,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3F00FA4E1FFD6B4600E584C6 /* Apple Pie */,
+				3F00FA4E1FFD6B4600E584C6 /* Apple Pie copy */,
 			);
 		};
 /* End PBXProject section */
@@ -142,6 +145,7 @@
 				3F00FA551FFD6B4600E584C6 /* ViewController.swift in Sources */,
 				3F00FA5B1FFD6B4600E584C6 /* Apple_Pie.xcdatamodeld in Sources */,
 				3F00FA531FFD6B4600E584C6 /* AppDelegate.swift in Sources */,
+				3F00FA682007D3B300E584C6 /* Game.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,7 +288,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Apple-Pie";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -298,14 +302,14 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Apple-Pie";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3F00FA4A1FFD6B4600E584C6 /* Build configuration list for PBXProject "Apple Pie" */ = {
+		3F00FA4A1FFD6B4600E584C6 /* Build configuration list for PBXProject "Apple Pie copy" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3F00FA621FFD6B4600E584C6 /* Debug */,
@@ -314,7 +318,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3F00FA641FFD6B4600E584C6 /* Build configuration list for PBXNativeTarget "Apple Pie" */ = {
+		3F00FA641FFD6B4600E584C6 /* Build configuration list for PBXNativeTarget "Apple Pie copy" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3F00FA651FFD6B4600E584C6 /* Debug */,
